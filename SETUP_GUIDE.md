@@ -93,7 +93,7 @@ pip install -r requirements.txt
 ### 4.2 간단한 테스트
 
 ```python
-from sentinel_downloader import SentinelDownloader
+from old.sentinel_downloader import SentinelDownloader
 
 # 자격 증명으로 초기화 (오류가 없으면 성공)
 downloader = SentinelDownloader(
